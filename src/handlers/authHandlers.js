@@ -1,6 +1,6 @@
 const jwt = require("jsonwebtoken");
 const joi = require("joi");
-const bcrypt = require("bcrypt");
+const bcrypt = require("bcryptjs");
 const generateOTP = require("../helpers/generatorOTP");
 const { transporterMail } = require("../helpers/transporterEmail");
 const { responseStandard } = require("../helpers/response");

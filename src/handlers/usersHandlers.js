@@ -1,9 +1,10 @@
+/* eslint-disable comma-dangle */
 const usersModels = require("../models/usersModels");
 const {
   responseStandard,
   writeResponsePaginated,
 } = require("../helpers/response");
-const bcrypt = require("bcrypt");
+const bcrypt = require("bcryptjs");
 
 const getAccountInfo = async (req, res) => {
   try {
