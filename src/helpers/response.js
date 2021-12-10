@@ -1,13 +1,7 @@
-const responseStandard = (
-  response,
-  message,
-  aditionalData = {},
-  status = 200,
-  success = true
-) => {
+const responseStandard = (response, message, aditionalData = {}, status = 200, success = true) => {
   response.status(status).json({
     success,
-    message: message || "Success",
+    message: message || 'Success',
     ...aditionalData,
   });
 };
