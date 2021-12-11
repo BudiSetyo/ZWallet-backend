@@ -65,7 +65,7 @@ io.on('connection', (socket) => {
 });
 
 server.listen(8080, () => {
-  console.log('Server running at port', process.env.PORT);
+  console.log('Server running at port :8080');
 });
 
 // Test Connection
