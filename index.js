@@ -64,14 +64,14 @@ io.on('connection', (socket) => {
   });
 });
 
-server.listen(8080, () => {
-  console.log('Server running at port :8080');
-});
-
 // Test Connection
 app.get('/', (req, res) => {
   res.json({
     succes: true,
     message: 'Backend is Running Now!!!',
   });
+});
+
+server.listen(8080, () => {
+  console.log('Server running at port :8080');
 });
