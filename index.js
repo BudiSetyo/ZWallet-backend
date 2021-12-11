@@ -64,7 +64,7 @@ io.on('connection', (socket) => {
   });
 });
 
-server.listen(process.env.PORT || 8080, () => {
+server.listen(8080, () => {
   console.log('Server running at port', process.env.PORT);
 });
 
