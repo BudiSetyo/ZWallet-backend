@@ -4,7 +4,6 @@
   "description": "Wallet Backend",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
     "server": "nodemon"
   },
   "author": "",
