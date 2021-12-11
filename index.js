@@ -20,7 +20,7 @@ app.use(express.static('public'));
 
 const io = socketIO(server, {
   cors: {
-    origin: '*',
+    origin: true,
     method: ['GET', 'POST', 'PATCH', 'DELETE'],
   },
 });
